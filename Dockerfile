@@ -1,5 +1,6 @@
 FROM ubuntu:16.04
 MAINTAINER Oscar Barrett
+LABEL VERSION 1.0.0
 
 # Install base packages
 RUN apt-get update && \
